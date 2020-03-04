@@ -20,6 +20,8 @@ class CarsPresenter: NSObject {
             car.carDescription = "this is only a test for the description of car \(index) this is only a test for the description of car \(index)"
             car.carPrice = 100000
             car.carPriceUnit = "SAR"
+            car.carBrand = "brand"
+            car.isAvailable = true
             if index % 2 == 0 {
                 car.carPhoto = "Gallery_0"
             }

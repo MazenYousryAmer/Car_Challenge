@@ -22,6 +22,8 @@
 		BA1C4857240DC0F5006CDD72 /* GalleyPhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C4856240DC0F5006CDD72 /* GalleyPhotoPageViewController.swift */; };
 		BA1C4859240DC21B006CDD72 /* GalleryPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C4858240DC21B006CDD72 /* GalleryPhotoViewController.swift */; };
 		BA1C485B240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C485A240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift */; };
+		BA20804A241056AF00968C53 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA208049241056AF00968C53 /* OverviewViewController.swift */; };
+		BA20804C24105EE800968C53 /* OverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20804B24105EE800968C53 /* OverviewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		BA1C4856240DC0F5006CDD72 /* GalleyPhotoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleyPhotoPageViewController.swift; sourceTree = "<group>"; };
 		BA1C4858240DC21B006CDD72 /* GalleryPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPhotoViewController.swift; sourceTree = "<group>"; };
 		BA1C485A240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA208049241056AF00968C53 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		BA20804B24105EE800968C53 /* OverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				BA1C4831240D65D0006CDD72 /* AppDelegate.swift */,
 				BA1C4843240D65FA006CDD72 /* Cars Listing View Controller */,
 				BA1C484C240D7E15006CDD72 /* Car Details Container */,
+				BA2080482410569100968C53 /* Overview */,
 				BA1C4851240DBD75006CDD72 /* Gallery */,
 				BA1C4838240D65D1006CDD72 /* Assets.xcassets */,
 				BA1C483A240D65D1006CDD72 /* LaunchScreen.storyboard */,
@@ -116,6 +121,15 @@
 				BA1C485A240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift */,
 			);
 			path = Gallery;
+			sourceTree = "<group>";
+		};
+		BA2080482410569100968C53 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				BA208049241056AF00968C53 /* OverviewViewController.swift */,
+				BA20804B24105EE800968C53 /* OverviewPresenter.swift */,
+			);
+			path = Overview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +210,11 @@
 				BA1C4857240DC0F5006CDD72 /* GalleyPhotoPageViewController.swift in Sources */,
 				BA1C4834240D65D0006CDD72 /* CarsViewController.swift in Sources */,
 				BA1C4850240D816A006CDD72 /* DetailsPresenter.swift in Sources */,
+				BA20804A241056AF00968C53 /* OverviewViewController.swift in Sources */,
 				BA1C484E240D80B7006CDD72 /* DetailsContainerViewController.swift in Sources */,
 				BA1C4853240DBDA3006CDD72 /* GalleryViewController.swift in Sources */,
 				BA1C4832240D65D0006CDD72 /* AppDelegate.swift in Sources */,
+				BA20804C24105EE800968C53 /* OverviewPresenter.swift in Sources */,
 				BA1C4859240DC21B006CDD72 /* GalleryPhotoViewController.swift in Sources */,
 				BA1C4849240D681C006CDD72 /* CarTableViewCell.swift in Sources */,
 			);

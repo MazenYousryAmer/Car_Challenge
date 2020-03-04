@@ -47,7 +47,7 @@ extension CarsViewController: UITableViewDelegate , UITableViewDataSource {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DetailsContainerViewController" {
             if let vc = segue.destination as? DetailsContainerViewController {
-                var detailsPresenter = DetailsPresenter()
+                let detailsPresenter = DetailsPresenter()
                 detailsPresenter.car = sender as! CarModel
                 vc.presenter = detailsPresenter
             }

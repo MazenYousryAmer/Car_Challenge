@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cars/Car Details Container/DetailsContainerViewController.swift"
-            timestampString = "604885807.37778"
+            timestampString = "605058593.25516"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cars/Car Details Container/DetailsContainerViewController.swift"
-            timestampString = "604885807.377859"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "showGalleryWithSelectedIndex(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -97,38 +81,6 @@
             endingLineNumber = "65"
             landmarkName = "leftBtnPressed()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Cars.GalleryPhotoViewController.leftBtnPressed() -&gt; ()"
-                  moduleName = "Cars"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Mazen/Desktop/Cars/Cars/Cars/Gallery/GalleryPhotoViewController.swift"
-                  timestampString = "604885067.5967391"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "653">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Foundation.IndexPath) -&gt; Swift.Optional&lt;Foundation.IndexPath&gt; in Cars.GalleryPhotoViewController.leftBtnPressed() -&gt; ()"
-                  moduleName = "Cars"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Mazen/Desktop/Cars/Cars/Cars/Gallery/GalleryPhotoViewController.swift"
-                  timestampString = "604885067.599528"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,6 +96,38 @@
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "leftBtnPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cars/Overview/OverviewViewController.swift"
+            timestampString = "605058593.2553689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "setupColorView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cars/Overview/OverviewViewController.swift"
+            timestampString = "605058593.255432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "colorBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

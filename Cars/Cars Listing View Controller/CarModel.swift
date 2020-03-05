@@ -10,7 +10,8 @@ import UIKit
 
 class CarModel: NSObject {
     var carTitle , carDescription, carPriceUnit, carBrand: String?
-    var carPrice: Int?
-    var carPhoto: String?
+    var carPrice , carGearBox, carCapacity: Int?
+    var carPhoto, carDriveType: String?
     var isAvailable: Bool?
+    var carPower, carEngine, carCity, carhighway: Int?
 }

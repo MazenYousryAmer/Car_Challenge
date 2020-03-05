@@ -39,13 +39,13 @@ class DetailsContainerViewController: UIViewController {
     }
     
     func setupLocalization() {
-        btnTabs[0].setTitle("overview", for: .normal)
-        btnTabs[1].setTitle("specs & features", for: .normal)
-        btnTabs[2].setTitle("gallery", for: .normal)
+        btnTabs[0].setTitle("Overview", for: .normal)
+        btnTabs[1].setTitle("Specs & Features", for: .normal)
+        btnTabs[2].setTitle("Gallery", for: .normal)
     }
     
     func setupSelectionView() {
-        tabsViewSelection.frame = CGRect(x: tabsView.frame.origin.x, y: tabsView.frame.height + tabsView.frame.origin.y , width: tabsView.frame.width / 3, height: 1)
+        tabsViewSelection.frame = CGRect(x: tabsView.frame.origin.x, y: tabsView.frame.height + tabsView.frame.origin.y , width: tabsView.frame.width / 3 + 20, height: 1)
         print("1")
     }
     
@@ -60,7 +60,6 @@ class DetailsContainerViewController: UIViewController {
     @IBAction func tabBtnPressed(_ sender: UIButton) {
         switch sender.tag {
         case 0:
-            print("0")
             showSelectedTab(btn: btnTabs[0])
             let overviewVC = storyboard!.instantiateViewController(withIdentifier: "OverviewViewController") as! OverviewViewController
             overviewVC.presenter = OverviewPresenter()
@@ -71,8 +70,16 @@ class DetailsContainerViewController: UIViewController {
             containView.addSubview(overviewVC.view)
             overviewVC.didMove(toParent: self)
         case 1:
-            print("1")
             showSelectedTab(btn: btnTabs[1])
+//            SpecsViewController
+            let specsVC = storyboard!.instantiateViewController(withIdentifier: "SpecsViewController") as! SpecsViewController
+            specsVC.presenter = SpecsPresenter()
+            specsVC.presenter.car = presenter.car
+            specsVC.delegate = self
+            addChild(specsVC)
+            specsVC.view.frame = containView.bounds
+            containView.addSubview(specsVC.view)
+            specsVC.didMove(toParent: self)
         case 2:
             showSelectedTab(btn: btnTabs[2])
             let galleryVC = storyboard!.instantiateViewController(withIdentifier: "GalleryViewController") as! GalleryViewController

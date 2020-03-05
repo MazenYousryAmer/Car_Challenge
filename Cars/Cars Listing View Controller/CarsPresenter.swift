@@ -21,6 +21,13 @@ class CarsPresenter: NSObject {
             car.carPrice = 100000
             car.carPriceUnit = "SAR"
             car.carBrand = "brand"
+            car.carGearBox = 15
+            car.carDriveType = "Auto"
+            car.carCapacity = 1
+            car.carPower = 30
+            car.carEngine = 2000
+            car.carCity = 40
+            car.carhighway = 30
             car.isAvailable = true
             if index % 2 == 0 {
                 car.carPhoto = "Gallery_0"

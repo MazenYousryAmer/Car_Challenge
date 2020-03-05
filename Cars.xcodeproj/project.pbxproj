@@ -24,6 +24,8 @@
 		BA1C485B240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C485A240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift */; };
 		BA20804A241056AF00968C53 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA208049241056AF00968C53 /* OverviewViewController.swift */; };
 		BA20804C24105EE800968C53 /* OverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20804B24105EE800968C53 /* OverviewPresenter.swift */; };
+		BA20804F2410836400968C53 /* SpecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20804E2410836400968C53 /* SpecsViewController.swift */; };
+		BA2080512410837C00968C53 /* SpecsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2080502410837C00968C53 /* SpecsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		BA1C485A240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		BA208049241056AF00968C53 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		BA20804B24105EE800968C53 /* OverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewPresenter.swift; sourceTree = "<group>"; };
+		BA20804E2410836400968C53 /* SpecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecsViewController.swift; sourceTree = "<group>"; };
+		BA2080502410837C00968C53 /* SpecsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				BA1C4843240D65FA006CDD72 /* Cars Listing View Controller */,
 				BA1C484C240D7E15006CDD72 /* Car Details Container */,
 				BA2080482410569100968C53 /* Overview */,
+				BA20804D2410833B00968C53 /* Specs & Features */,
 				BA1C4851240DBD75006CDD72 /* Gallery */,
 				BA1C4838240D65D1006CDD72 /* Assets.xcassets */,
 				BA1C483A240D65D1006CDD72 /* LaunchScreen.storyboard */,
@@ -130,6 +135,15 @@
 				BA20804B24105EE800968C53 /* OverviewPresenter.swift */,
 			);
 			path = Overview;
+			sourceTree = "<group>";
+		};
+		BA20804D2410833B00968C53 /* Specs & Features */ = {
+			isa = PBXGroup;
+			children = (
+				BA20804E2410836400968C53 /* SpecsViewController.swift */,
+				BA2080502410837C00968C53 /* SpecsPresenter.swift */,
+			);
+			path = "Specs & Features";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +219,10 @@
 			files = (
 				BA1C485B240DC4D4006CDD72 /* GalleryPhotoCollectionViewCell.swift in Sources */,
 				BA1C4847240D664D006CDD72 /* CarModel.swift in Sources */,
+				BA20804F2410836400968C53 /* SpecsViewController.swift in Sources */,
 				BA1C4845240D6635006CDD72 /* CarsPresenter.swift in Sources */,
 				BA1C4855240DBE03006CDD72 /* GalleryTableViewCell.swift in Sources */,
+				BA2080512410837C00968C53 /* SpecsPresenter.swift in Sources */,
 				BA1C4857240DC0F5006CDD72 /* GalleyPhotoPageViewController.swift in Sources */,
 				BA1C4834240D65D0006CDD72 /* CarsViewController.swift in Sources */,
 				BA1C4850240D816A006CDD72 /* DetailsPresenter.swift in Sources */,

@@ -59,6 +59,8 @@ class SpecsViewController: UIViewController {
     
     
     func setupSpecs() {
+        
+        lblSpecficationsTitle.text = "Specifications"
         lblPowerTitle.text = "Power"
         lblPower.text = "\(presenter.car.carPower ?? 0)"
         

@@ -19,6 +19,20 @@ class CarsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.populateCars()
+        
+        let titleImage = UIImageView(image: UIImage(named: "nav_icon"))
+        titleImage.frame = CGRect(x: 0, y: 0, width: 120, height: 60)
+        titleImage.contentMode = .scaleAspectFit
+        navigationItem.titleView = titleImage
+        navigationController!.navigationBar.setBackgroundImage(UIImage(named: "nav_bg"),
+                                                               for: .default)
+        
+        
+//        navigationController!.navigationBar.setBackgroundImage(UIImage(named: "nav_bg"), for: UIBarPosition.any, barMetrics: UIBarMetrics.default)
+//        navigationController!.navigationBar.setBackgroundImage(UIImage(named: "nav_bg")?.resizableImage(withCapInsets: UIEdgeInsets(top: 44, left: 0, bottom: 0, right: 0), resizingMode: .stretch), for: .default)
+//        navigationController?.navigationBar.backgroundColor = .black
+//        navigationController?.navigationBar.isTranslucent = false
+//        self.navigationController?.navigationItem.
         // Do any additional setup after loading the view.
     }
 }

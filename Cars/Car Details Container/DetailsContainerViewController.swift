@@ -35,24 +35,25 @@ class DetailsContainerViewController: UIViewController {
     func setupView() {
         setupLocalization()
         setupSelectionView()
-        showSelectedTab(btn: btnTabs[0])
+//        showSelectedTab(btn: btnTabs[0])
     }
     
     func setupLocalization() {
+        navigationItem.title = "\(presenter.car.carTitle ?? "") details"
         btnTabs[0].setTitle("Overview", for: .normal)
         btnTabs[1].setTitle("Specs & Features", for: .normal)
         btnTabs[2].setTitle("Gallery", for: .normal)
     }
     
     func setupSelectionView() {
-        tabsViewSelection.frame = CGRect(x: tabsView.frame.origin.x, y: tabsView.frame.height + tabsView.frame.origin.y , width: tabsView.frame.width / 3 + 20, height: 1)
-        print("1")
+        tabsViewSelection.frame = CGRect(x: tabsView.frame.origin.x + 10, y: tabsView.frame.height + tabsView.frame.origin.y , width: btnTabs[0].frame.width , height: 1)
     }
     
     //MARK: - animation
     func showSelectedTab(btn: UIButton) {
         UIView.animate(withDuration: 0.3, animations: {
-            self.tabsViewSelection.center.x = btn.center.x
+            self.tabsViewSelection.center.x = btn.center.x + 10
+//            self.tabsViewSelection.frame = btn.frame
         })
     }
     
